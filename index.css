@@ -139,39 +139,114 @@ html {
 	font-family: 'Roboto Mono', monospace;
 }
 
-.container {
-	margin: 0 auto;
-	padding: 5vh;
-}
 /* Navigation */
 
-nav {
-	display: flex;
-	justify-content: space-evenly;
+.container header nav li,
+.container footer nav li {
+	display: inline-block;
+	width: 33%;
 }
 
-.nav1,
-.nav2,
-.nav3 {
+.container header nav a,
+.container footer nav a {
+	display: block;
+	width: 20rem;
+	padding: 2rem;
+	margin: 5% 0 5% 33%;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 	border-radius: 25px;
-	padding: 2rem;
 	font-size: 2rem;
-	margin: 2rem;
 }
 
-.nav1 {
+.plan {
 	background: #ff764e;
 }
 
-.nav2 {
+.learn {
 	background: #5ed3eb;
 }
 
-.nav3 {
+.getInv {
 	background: #ffcd69;
 }
 
 /* header area */
+
+header .intro img {
+	float: left;
+	clear: left;
+	overflow: auto;
+	height: 35rem;
+	width: auto;
+	border-radius: 50%;
+	margin-left: 5rem;
+}
+
+.intro h1 {
+	font-family: 'Chelsea Market', cursive;
+	margin: 5rem;
+	font-size: 8rem;
+	text-align: center;
+}
+
+.intro p {
+	font-size: 2rem;
+	padding: 4rem;
+	text-align: center;
+}
+
+/* Park Info Section */
+.parkInfo {
+	background: #ddb9a3;
+	color: white;
+	margin: 5rem;
+	padding: 3.5rem;
+}
+
+.parkInfo p {
+	font-size: 2.5rem;
+	padding: 2rem;
+}
+
+.fireSafety p,
+.reservationInfo p {
+	font-size: 2rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.5rem;
+	width: 20%;
+	padding: 1rem;
+}
+
+.fireSafety img,
+.reservationInfo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 15rem;
+	width: 50%;
+}
+
+.fireSafety span,
+.reservationInfo span {
+	font-weight: 800;
+}
+
+/* footer area */
+
+footer img {
+	width: 100vw;
+	margin-bottom: -20vh;
+	margin-top: 10vh;
+	max-height: 50%;
+}
+
+footer nav {
+	position: relative;
+	background: #f9e7dc;
+	width: 100%;
+	padding: 5vh;
+}
