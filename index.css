@@ -237,15 +237,19 @@ header .intro img {
 
 /* footer area */
 
-footer img {
-	width: 100vw;
-	margin-bottom: -20vh;
-	margin-top: 10vh;
-	max-height: 50%;
+.imgContainer {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+
+.imgContainer img {
+	display: block;
+	width: 100%;
+	margin: 5% 0 -25% 0;
 }
 
 footer nav {
-	position: relative;
 	background: #f9e7dc;
 	width: 100%;
 	padding: 5vh;
